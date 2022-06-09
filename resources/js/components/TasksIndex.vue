@@ -216,7 +216,7 @@ export default {
                 return;
             }
             await destroyTask(id);
-            await getTasks();
+            await getTasks('','');
         };
         const getFilterTask = async (deadline, user_id) =>{
             await getTasks({deadline, user_id});

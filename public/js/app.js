@@ -21626,7 +21626,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
               case 4:
                 _context.next = 6;
-                return getTasks();
+                return getTasks('', '');
 
               case 6:
               case "end":
